@@ -1,0 +1,250 @@
+/* 文字区高度 */
+#workbench\.parts\.editor>div.content>div>div>div>div>div.monaco-scrollable-element>div.split-view-container>div>div>div.editor-container>div>div>div.overflow-guard {
+  height: calc(100% + 30px) !important;
+}
+
+#workbench\.parts\.editor,
+#workbench\.parts\.editor>div.content,
+#workbench\.parts\.editor>div.content>div>div>div>div>div.monaco-scrollable-element>div.split-view-container>div>div>div.editor-container>div>div>div.overflow-guard>div.monaco-scrollable-element.editor-scrollable.vs-dark,
+body>div.file-icons-enabled.enable-motion.monaco-workbench.windows.chromium.nopanel.noauxiliarybar.sidebar-right.vs-dark.ddiu8081-moegi-theme-themes-moegi-dark-color-theme-json>div.monaco-grid-view>div>div>div.monaco-scrollable-element>div.split-view-container>div:nth-child(3)>div>div>div.monaco-scrollable-element>div.split-view-container>div:nth-child(2)>div>div>div.monaco-scrollable-element>div.split-view-container>div.split-view-view.visible,
+body>div.file-icons-enabled.enable-motion.monaco-workbench.windows.chromium.nosidebar.nopanel.noauxiliarybar.sidebar-right.vs-dark.ddiu8081-moegi-theme-themes-moegi-dark-color-theme-json>div.monaco-grid-view>div>div>div.monaco-scrollable-element>div.split-view-container>div:nth-child(3)>div>div>div.monaco-scrollable-element>div.split-view-container>div:nth-child(2)>div>div>div.monaco-scrollable-element>div.split-view-container>div.split-view-view.visible {
+  height: 100% !important;
+}
+
+body>div.file-icons-enabled.enable-motion.monaco-workbench.windows.chromium.noauxiliarybar.sidebar-right.vs-dark.ddiu8081-moegi-theme-themes-moegi-dark-color-theme-json.nopanel>div.monaco-grid-view>div>div>div.monaco-scrollable-element>div.split-view-container>div:nth-child(3)>div>div>div.monaco-scrollable-element>div.split-view-container>div:nth-child(2)>div>div>div.sash-container>div {
+  top: calc(100% - 5px) !important;
+}
+
+/* 终端区高度 */
+body > div.file-icons-enabled.enable-motion.monaco-workbench.windows.chromium.nosidebar.noauxiliarybar.sidebar-right.vs-dark.ddiu8081-moegi-theme-themes-moegi-dark-color-theme-json > div.monaco-grid-view > div > div > div.monaco-scrollable-element > div.split-view-container > div:nth-child(3) > div > div > div.monaco-scrollable-element > div.split-view-container > div:nth-child(2) > div > div > div.monaco-scrollable-element > div.split-view-container > div:nth-child(2) {
+  height: -webkit-fill-available !important;
+}
+#workbench\.parts\.panel {
+  height: 100% !important;
+}
+#workbench\.parts\.panel > div.content {
+  height: calc(100% - 35px) !important;
+}
+
+#workbench\.panel\.markers > div > div > div.monaco-scrollable-element > div.split-view-container > div > div > div.pane-body.markers-panel.wide > div.markers-panel-container > div.message-box-container,
+#terminal > div > div > div.monaco-scrollable-element > div.split-view-container > div > div > div.pane-body.shell-integration.integrated-terminal.wide > div.monaco-split-view2.horizontal > div.monaco-scrollable-element > div.split-view-container > div > div > div > div > div > div.monaco-scrollable-element > div.split-view-container > div > div > div > div > div {
+  height: 100% !important;
+}
+
+/* icon */
+#workbench\.parts\.titlebar > div > div.titlebar-left > a {
+  display: none !important;
+}
+
+/* 滚动条 */
+#workbench\.parts\.editor>div.content>div>div>div>div>div.monaco-scrollable-element>div.split-view-container>div>div>div.editor-container>div>div>div.overflow-guard>div.monaco-scrollable-element.editor-scrollable.vs-dark>canvas,
+#workbench\.parts\.editor>div.content>div>div>div>div>div.monaco-scrollable-element>div.split-view-container>div>div>div.editor-container>div>div>div.overflow-guard>div.monaco-scrollable-element.editor-scrollable.vs-dark>div.visible.scrollbar.vertical,
+#workbench\.parts\.editor>div.content>div>div>div>div>div.monaco-scrollable-element>div.split-view-container>div>div>div.editor-container>div>div>div.overflow-guard>div.monaco-scrollable-element.editor-scrollable.vs-dark>div.invisible.scrollbar.vertical {
+  width: 8px !important;
+}
+
+#workbench\.parts\.editor>div.content>div>div>div>div>div.monaco-scrollable-element>div.split-view-container>div>div>div.editor-container>div>div>div.overflow-guard>div.monaco-scrollable-element.editor-scrollable.vs-dark>canvas {
+  opacity: 0.5 !important;
+}
+
+#workbench\.parts\.editor>div.content>div>div>div>div>div.monaco-scrollable-element>div.split-view-container>div>div>div.editor-container>div>div>div.overflow-guard>div.monaco-scrollable-element.editor-scrollable.vs-dark>div.visible.scrollbar.horizontal {
+  height: 8px !important;
+}
+
+#workbench\.parts\.activitybar>div {
+  padding-top: 29px;
+  border-top: 1px solid rgba(255, 255, 255, 0.07);
+}
+
+/* 侧栏标题栏 */
+#workbench\.parts\.sidebar>div.composite.title {
+  height: 30px !important;
+  border-bottom: 1.5px solid rgba(255, 255, 255, 0.07) !important;
+}
+
+.editor-actions {
+  border-right: none !important;
+}
+
+/* 彩色 */
+body {
+  --rainbow-linear-h: linear-gradient(#fb7185,
+      #f472b6,
+      #e879f9,
+      #c084fc,
+      #a78bfa,
+      #818cf8,
+      #60a5fa,
+      #38bdf8,
+      #22d3ee,
+      #2dd4bf,
+      #34d399,
+      #4ade80,
+      #a3e635,
+      #facc15,
+      #fbbf24,
+      #fb923c,
+      #f87171);
+  --rainbow-linear-v: linear-gradient(to right,
+      #fb7185,
+      #f472b6,
+      #e879f9,
+      #c084fc,
+      #a78bfa,
+      #818cf8,
+      #60a5fa,
+      #38bdf8,
+      #22d3ee,
+      #2dd4bf,
+      #34d399,
+      #4ade80,
+      #a3e635,
+      #facc15,
+      #fbbf24,
+      #fb923c,
+      #f87171);
+}
+
+div.cursor {
+  animation: 45s linear infinite alternate bp-animation-tb;
+  background: var(--rainbow-linear-h);
+  background-size: 100% 1000%;
+  border-radius: 2px;
+  overflow: visible !important;
+}
+
+div.cursor::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: inherit;
+  background-size: 100% 1000%;
+  border-radius: 3px;
+  transform: scale(140%, 120%);
+  filter: blur(4px) brightness(200%);
+  z-index: -1;
+}
+
+div.line-numbers.active-line-number {
+  font-weight: bold !important;
+  animation: 45s linear infinite alternate bp-animation-tb;
+  background: var(--rainbow-linear-h);
+  background-size: 100% 1000%;
+  color: transparent !important;
+  background-clip: text;
+}
+
+.tab-border-bottom-container {
+  animation: 45s linear infinite alternate bp-animation-lr;
+  background: var(--rainbow-linear-v);
+  background-size: 1000% 100%;
+  height: 2px !important;
+}
+
+.tab-border-bottom-container::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 4px;
+  position: absolute;
+  background: var(--rainbow-linear-v);
+  background-size: 1000% 100%;
+  filter: blur(10px);
+  animation: 45s linear infinite alternate bp-animation-lr;
+}
+
+.badge.progress-badge > div {
+  animation: 45s linear infinite alternate bp-animation-tb;
+  background: var(--rainbow-linear-h);
+  background-size: 100% 1000%;
+  border-radius: 2px;
+  overflow: visible !important;
+}
+
+@keyframes bp-animation-tb {
+  0% {
+    background-position: 0 0;
+  }
+
+  20% {
+    background-position: 0 200%;
+  }
+
+  40% {
+    background-position: 0 400%;
+  }
+
+  60% {
+    background-position: 0 600%;
+  }
+
+  80% {
+    background-position: 0 800%;
+  }
+
+  100% {
+    background-position: 0 1000%;
+  }
+}
+
+@keyframes bp-animation-lr {
+  0% {
+    background-position: 1000% 0;
+  }
+
+  20% {
+    background-position: 800% 0;
+  }
+
+  40% {
+    background-position: 600% 0;
+  }
+
+  60% {
+    background-position: 400% 0;
+  }
+
+  80% {
+    background-position: 200% 0;
+  }
+
+  100% {
+    background-position: 0 0;
+  }
+}
+
+/* 阴影 */
+.monaco-editor .scroll-decoration {
+  opacity: 0.7 !important;
+}
+
+#workbench\.parts\.titlebar {
+  background-color: transparent !important;
+}
+
+"workbench.colorCustomizations": {
+    "editorGroupHeader.tabsBackground": "#00000000",
+    "sideBar.background": "#00000000",
+    "sideBarSectionHeader.background": "#00000000",
+    "editor.background": "#00000000",
+    "peekViewEditor.background": "#00000000",
+    "peekViewEditorGutter.background": "#00000000",
+    "peekViewTitle.background": "#00000000",
+    "peekViewResult.background": "#00000000",
+    "tab.activeBackground": "#00000000",
+    "tab.inactiveBackground": "#00000000",
+    "statusBar.background": "#00000000",
+    "statusBar.debuggingBackground": "#00000000",
+    "statusBar.noFolderBackground": "#00000000",
+    "statusBarItem.activeBackground": "#00000000",
+    "panel.background": "#00000000",
+    "activityBar.background": "#00000000",
+    "terminal.background": "#00000000",
+    "editor.lineHighlightBackground": "#00000060",
+    "list.activeSelectionBackground": "#00000060",
+    "list.hoverBackground": "#00000060",
+    "titleBar.activeBackground": "#00000000"
+  },
